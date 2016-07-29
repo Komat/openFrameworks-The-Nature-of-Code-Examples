@@ -5,8 +5,8 @@
  * @version 0.0.0
  */
 
-#ifndef NOC_1_7_MOTION101_MOVER_H
-#define NOC_1_7_MOTION101_MOVER_H
+#ifndef NOC_1_8_MOTION101_MOVER_H
+#define NOC_1_8_MOTION101_MOVER_H
 
 
 #include <ofMain.h>
@@ -27,4 +27,4 @@ public:
 };
 
 
-#endif //NOC_1_7_MOTION101_MOVER_H
+#endif //NOC_1_8_MOTION101_MOVER_H

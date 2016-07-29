@@ -5,8 +5,8 @@
  * @version 0.0.0
  */
 
-#ifndef NOC_1_9_MOTION101_MOVER_H
-#define NOC_1_9_MOTION101_MOVER_H
+#ifndef NOC_2_2_FORCES_MANY_MOVER_H
+#define NOC_2_2_FORCES_MANY_MOVER_H
 
 
 #include <ofMain.h>
@@ -17,14 +17,15 @@ private:
     ofVec2f location;
     ofVec2f velocity;
     ofVec2f acceleration;
-    float topspeed;
+    float mass;
 
 public:
     Mover();
     void update();
-    void checkEdges();
     void display();
+    void applyForce(ofVec2f force);
+    void checkEdges();
 };
 
 
-#endif //NOC_1_9_MOTION101_MOVER_H
+#endif //NOC_2_2_FORCES_MANY_MOVER_H
